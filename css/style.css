@@ -1,0 +1,19 @@
+.img-container {
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+#button-view button {
+    margin: 5px;
+    background-color: white;
+    border-radius: 0;
+    font-size: 1em;
+}
+
+#button-view button:hover {
+    box-shadow: 3px 3px 3px #999;
+}
+
+#button-view button:active {
+    background-color: blue;
+}
