@@ -4,7 +4,7 @@ const apikey = 'gus012HEmcH71My5Dr9CPpImSBWR3XnM';
 const limit = 20;
 
 function getApiUrl(query) {
-	return "http://api.giphy.com/v1/gifs/search?q=" + query
+	return "https://api.giphy.com/v1/gifs/search?q=" + query
 		+ "&api_key=" + apikey
 		+ "&limit=" + limit;
 }
